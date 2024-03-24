@@ -9,6 +9,7 @@ fun main() {
     clubs.add(Club("manchester city", 8, 8, 0, 0, 0))
     clubs.add(Club("arsenal", 13, 14, 2, 0, 0))
 
+    
     // Passing a named function ::sortByNumberTrophyTotal
     val sortedClubs = filterAndSort(clubs, ::sortByNumberTrophyTotal)
     // Hasil sorting total trofi

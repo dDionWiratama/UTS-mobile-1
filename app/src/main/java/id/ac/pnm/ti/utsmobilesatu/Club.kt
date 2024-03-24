@@ -15,4 +15,5 @@ data class Club(
 // extension function recap
 fun Club.recap(): String {
     return "$name berhasil meraih $epl trofi Liga Premier Inggris, $fa trofi FA, $efl trofi EFL, $ucl trofi Liga Champion, dan $uel trofi Liga Eropa UEFA"
+
 }
